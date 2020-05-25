@@ -16,9 +16,20 @@
 <body>
     <div class="intro-form-div" id="introForm">
         <form action="">
-            <div class="introInputLabel">
+            <div class="introInputLabel formPart">
                 <label for="stockSymbol">Search</label>
                 <input type="text" class="introInput" id="introInput" autocomplete="off">
+            </div>
+            <div class="introTimeSelect formPart">
+                <label for="timeInterval">Time Interval</label>
+                <select name="timeInterval" id="introTimeSelect" class="timeSelect">
+                    <option value="1min">1m</option>
+                    <option value="5min">5m</option>
+                    <option value="10min">10m</option>
+                    <option value="15min">15m</option>
+                    <option value="30min">30m</option>
+                    <option value="60min">60m</option>
+                </select>
             </div>
             <button type="submit" class="introSearchBtn" id="introSearchBtn">Search</button>
         </form>
