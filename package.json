@@ -1,0 +1,22 @@
+{
+  "name": "Stock-Dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryand67/Stock-Dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryand67/Stock-Dashboard/issues"
+  },
+  "homepage": "https://github.com/ryand67/Stock-Dashboard#readme"
+}

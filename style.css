@@ -44,3 +44,13 @@ form {
     margin: 0 auto;
     width: 50%;
 }
+
+.mainStock {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainStats {
+    font-weight: 600;
+    margin: 0 .5em;
+}
